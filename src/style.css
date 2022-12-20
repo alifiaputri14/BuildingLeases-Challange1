@@ -1,0 +1,168 @@
+*{
+    font-family: "Poppins"
+}
+.body{
+    background-color: #ffffff;
+    
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+.btn-custom{
+    color: #000000;
+    background-color: #ffffff;\
+
+
+}
+.login{
+
+    padding:0px 20px;
+    background-color: #ffffff;
+    font-weight:600;
+    font-size:16px;
+    color:#000000;
+    border-color:transparent ;
+    margin-right:20px;
+
+
+}
+.sign-up{
+    
+    background-color: #FF7048;
+    border-color: #FF7048;
+    border-radius: 12px;
+    weight:140px;
+    height:50px;
+    padding:0px 20px;
+    font-size:16px !important;
+    color: white !important;
+    font-weight:600;
+}
+.collapse{
+    justify-content: end;
+}
+
+.title{
+    text-align: center;
+    font-size: 26px;
+        color: #000000;
+    font-weight: bold;
+}
+.sub-title{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    font-weight: medium;
+}
+.wrapper{
+    background-color:transparent;
+    border:none
+
+} 
+ .wrapper:hover{
+    border-color: #3A8375 !important;
+    border:2px solid;
+    border-radius:10px;
+    cursor:pointer;
+}
+.name{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+}
+.name-address{
+    display:flex;
+    align-items:center;
+    font-weight: 400;
+font-size: 14px;
+color: #ADADAD 
+}
+.price{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:#3A8375;
+
+    
+}
+.restaurant-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    padding: 50px;
+    font-family: 'Poppins';
+}
+
+.carousel-title {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+/* .carousel-buttons {
+    display: flex;
+    margin-left: 500px;
+} */
+
+.carousel-control-prev {
+    position: absolute;
+    top: 50% !important;
+    left: 50px !important;
+    margin-top: 40px;
+/*     background-color: red; */
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid gray !important;
+}
+
+.carousel-control-prev svg {
+    width: 30px;
+    color: gray;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 50% !important;
+    left: 120px;
+    margin-top: 40px;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid gray !important;
+}
+
+.carousel-control-next svg {
+    width: 30px;
+    color: gray;
+}
+
+.search-btn {
+    min-width: 80px;
+    min-height: 50px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-device-width: 1200px) {
+    .carousel-title {
+        font-size: 30px;
+    }
+}
+
+
+
+    
+    
+
+
